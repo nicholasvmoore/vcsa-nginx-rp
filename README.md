@@ -4,7 +4,7 @@ If you ever have the need to access your VCSA externally you ought not to expose
 
 So what's needed to get started? NGINX, why NGINX? Because it's the right tool for the job! I've included a rather sanitary configuration within this repository to use as a reference for anyone who wants a good starting point. Included is an HTTP => HTTPS redirect. An HTTPS reverse proxy for the VCSA and an HTTPS websocket reverse proxy used for accessing the console of your guests.
 
-## Environment specific configured directives
+## Environment specific configuration directives
 Below is a list of items you will need to configure specifically to your environment.
 
  - upstream vcsa-9443 server
